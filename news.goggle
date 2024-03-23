@@ -6,9 +6,7 @@
 
 ! This Goggle reflects the Creator's bias. If you disagree, make your own Goggle. 
 
-! authoritative sites
-$site=pewresearch.org,boost=3
-$site=supremecourt.gov,boost=3
+
 
 ! reputable news sites
 $site=aljazeera.com,boost=2
