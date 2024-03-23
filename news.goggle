@@ -10,7 +10,19 @@
 $site=pewresearch.org,boost=3
 $site=supremecourt.gov,boost=3
 
-
+! reputable news sites
+$site=aljazeera.com,boost=2
+$site=apnews.com,boost=2
+$site=bbc.com,boost=2
+$site=cnn.com,boost=2
+$site=independent.co.uk,boost=2
+$site=npr.org,boost=2
+$site=pbs.org,boost=2
+$site=reuters.com,boost=2
+$site=telegraph.co.uk,boost=2
+$site=theguardian.com,boost=2
+$site=time.com,boost=2
+$site=variety.com,boost=2
 
 ! paywalled sites
 $site=bloomberg.com,downrank
