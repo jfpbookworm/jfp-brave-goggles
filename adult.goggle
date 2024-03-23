@@ -41,6 +41,7 @@ xxx$boost
 ! sites that allow nsfw content
 $site=deviantart.com,boost
 $site=itch.io,boost
+$site=newgrounds.com,boost
 $site=reddit.com,boost
 
 ! commercial sites
