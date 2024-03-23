@@ -36,11 +36,19 @@ $site=tiktok.com,downrank
 $site=x.com,downrank
 $site=youtube.com,downrank
 
-! shopping sites
+! commercial sites
+*buy*$downrank
+*shop*$downrank
+*sponsored*$downrank
+*store*$downrank
 $site=amazon.com,downrank
+$site=amazon.co.uk,downrank
 $site=bathandbodyworks.com,downrank
+$site=cvs.com,downrank
 $site=dollartree.com,downrank
+$site=gnc.com,downrank
 $site=target.com,downrank
+$site=walgreens.com,downrank
 $site=walmart.com,downrank
 
 ! sites dedicated to misinformation
