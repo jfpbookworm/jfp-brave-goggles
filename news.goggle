@@ -11,10 +11,12 @@
 
 ! reputable news sites
 $site=cnn.com,boost=2
-$site=nytimes.com,boost=2
 
-! extreme bias
-$site=jacobin.com,downrank
+! paywalled sites
+$site=nytimes.com,downrank
+$site=theathletic.com,downrank
+$site=washingtonpost.com,downrank
+$site=wsj.com,downrank
 
 ! sites prone to misinformation or clickbait
 $site=facebook.com,downrank
@@ -27,8 +29,12 @@ $site=tiktok.com,downrank
 $site=x.com,downrank
 $site=youtube.com,downrank
 
+! extremely partisan news sites
+$site=foxnews.com,downrank=2
+$site=jacobin.com,downrank=2
+$site=nypost.com,downrank=2
+
 ! sites dedicated to misinformation or clickbait
 $site=breitbart.com,discard
 $site=dailycaller.com,discard
-$site=fox ews.com,discard
 $site=infowars.com,discard
