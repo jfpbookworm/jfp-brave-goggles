@@ -47,7 +47,11 @@ $site=reddit.com,boost
 
 ! commercial sites
 $site=amazon.com,downrank
+$site=aoflix.com,downrank
+$site=brazzers.com,downrank
 $site=brazzersnetwork.com,downrank
+$site=rk.com,downrank
+$site=xvideos.red,downrank
 
 ! sites that ban nsfw content
 $site=dailymotion.com,discard
