@@ -2,7 +2,7 @@
 ! description: Goggle for lay person medical answers
 ! public: false
 ! author: jfp
-! avatar: #ff0000
+! avatar: #aa0000
 
 ! authoritative sites
 $site=cdc.gov,boost=3
