@@ -22,6 +22,7 @@ $site=reuters.com,boost=2
 $site=telegraph.co.uk,boost=2
 $site=theguardian.com,boost=2
 $site=time.com,boost=2
+$site=usatoday.com,boost=2
 $site=variety.com,boost=2
 
 ! paywalled sites
@@ -60,11 +61,12 @@ $site=nypost.com,downrank=2
 $site=thehill.com,downrank=2
 $site=wonkette.com,downrank=2
 
-! sites dedicated to misinformation or clickbait
+! misinformation, parody or clickbait
 $site=breitbart.com,discard
 $site=dailycaller.com,discard
 $site=infowars.com,discard
 $site=lifenews.com,discard
 $site=theepochtimes.com,discard
 $site=thefederalist.com,discard
+$site=theonion.com,discard
 $site=tpusa.com,discard
