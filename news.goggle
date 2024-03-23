@@ -42,7 +42,7 @@ $site=wsj.com,downrank
 ! sites prone to misinformation or clickbait
 $site=buzzfeed.com,downrank
 $site=facebook.com,downrank
-$site=forbes.com, downrank
+$site=forbes.com,downrank
 $site=medium.com,downrank
 $site=newsbreak.com,downrank
 $site=pinterest.com,downrank
