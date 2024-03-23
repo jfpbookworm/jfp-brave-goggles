@@ -7,11 +7,23 @@
 
 ! This Goggle reflects the Creator's bias. If you disagree, make your own Goggle. 
 
+! authoritative sites
+$site=pewresearch.org,boost=3
+$site=supremecourt.gov,boost=3
+
 ! reputable news sites
+$site=aljazeera.com,boost=2
+$site=apnews.com,boost=2
+$site=bbc.com,boost=2
 $site=cnn.com,boost=2
 $site=independent.co.uk,boost=2
+$site=npr.org,boost=2
+$site=pbs.org,boost=2
+$site=reuters.com,boost=2
 $site=telegraph.co.uk,boost=2
 $site=theguardian.com,boost=2
+$site=time.com,boost=2
+$site=variety.com,boost=2
 
 ! paywalled sites
 $site=bloomberg.com,downrank
@@ -29,7 +41,9 @@ $site=washingtonpost.com,downrank
 $site=wsj.com,downrank
 
 ! sites prone to misinformation or clickbait
+$site=buzzfeed.com,downrank
 $site=facebook.com,downrank
+$site=forbes.com, downrank
 $site=medium.com,downrank
 $site=newsbreak.com,downrank
 $site=pinterest.com,downrank
@@ -44,8 +58,14 @@ $site=foxnews.com,downrank=2
 $site=jacobin.com,downrank=2
 $site=newsweek.com,downrank=2
 $site=nypost.com,downrank=2
+$site=thehill.com,downrank=2
+$site=wonkette.com,downrank=2
 
 ! sites dedicated to misinformation or clickbait
 $site=breitbart.com,discard
 $site=dailycaller.com,discard
 $site=infowars.com,discard
+$site=lifenews.com,discard
+$site=theepochtimes.com,discard
+$site=thefederalist.com,discard
+$site=tpusa.com,discard
