@@ -22,6 +22,7 @@ $site=latimes.com,downrank
 $site=nytimes.com,downrank
 $site=theathletic.com,downrank
 $site=theatlantic.com,downrank
+$site=theglobeandmail.com,downrank
 $site=thesundaytimes.co.uk,downrank
 $site=thetimes.co.uk,downrank
 $site=washingtonpost.com,downrank
