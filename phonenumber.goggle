@@ -3,6 +3,7 @@
 ! description: Goggle for finding out who a phone number belongs to
 ! public: false
 ! author: jfp
+! avatar: #00cccc
 
 ! anti-robocall sites
 $site=800notes.com,boost=2
