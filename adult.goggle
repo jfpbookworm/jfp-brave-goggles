@@ -1,4 +1,3 @@
- 
 ! name: NSFW
 ! description: Boosts sites that don't ban NSFW content
 ! public: false
@@ -45,6 +44,9 @@ xxx$boost
 $site=deviantart.com,boost
 $site=itch.io,boost
 $site=reddit.com,boost
+
+! commercial sites
+$site=amazon.com,downrank
 
 ! sites that ban nsfw content
 $site=dailymotion.com,discard
