@@ -3,6 +3,7 @@
 ! description: Boosts sites that don't ban NSFW content
 ! public: false
 ! author: jfp
+! avatar: #ff4400
 
 ! porn sites
 $site=beeg.com,boost=3
