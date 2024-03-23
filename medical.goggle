@@ -1,0 +1,45 @@
+ 
+! name: Medical
+! description: Goggle for lay person medical answers
+! public: false
+! author: jfp
+
+! authoritative sites
+$site=cdc.gov,boost=3
+$site=hhs.gov,boost=3
+$site=medlineplus.gov,boost=3
+$site=nih.gov,boost=3
+$site=nhs.uk,boost=3
+
+! reputable sites
+$site=aamc.org,boost=2
+$site=ahrq.gov,boost=2
+$site=drugs.com,boost=2
+$site=health.harvard.edu,boost=2
+$site=healthline.com,boost=2
+$site=hopkinsmedicine.org,boost=2
+$site=mayoclinic.com,boost=2
+$site=pdr.net,boost=2
+$site=rxlist.com,boost=2
+
+! commercial medical information sites
+$site=verywellhealth.com,boost
+$site=webmd.com,boost
+
+! sites prone to misinformation
+$site=facebook.com,downrank
+$site=medium.com,downrank
+$site=pinterest.com,downrank
+$site=quora.com,downrank
+$site=reddit.com,downrank
+$site=tiktok.com,downrank
+$site=x.com,downrank
+$site=youtube.com,downrank
+
+! sites dedicated to misinformation
+$site=doctoroz.com,discard
+$site=infowars.com,discard
+$site=mercola.com,discard
+$site=naturalnews.com,discard
+$site=peoplespharmacy.com,discard
+$site=wholehealthmd.com,discard

@@ -1,0 +1,30 @@
+ 
+! name: Phone Numbers
+! description: Goggle for finding out who a phone number belongs to
+! public: false
+! author: jfp
+
+! anti-robocall sites
+$site=800notes.com,boost=2
+$site=nomorobo.com,boost=2
+$site=numberguru.com,boost=2
+$site=robokiller.com,boost=2
+$site=shouldianswer.com,boost=2
+$site=truecaller.com,boost=2
+
+! free white pages sites
+$site=numlookup.com,boost
+$site=usphonebook.com,boost
+$site=whitepages.com,boost
+
+! paid white pages sites
+
+
+! fake number lookup sites
+$site=example.com,discard
+
+! spam sites that use blocks of phone numbers
+$site=blogspot.com,discard
+$site=ha-bo.de,discard
+$site=mil.ht,discard
+$site=stanleysfarm.de,discard

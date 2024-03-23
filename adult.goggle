@@ -1,0 +1,52 @@
+ 
+! name: NSFW
+! description: Boosts sites that don't ban NSFW content
+! public: false
+! author: jfp
+
+! porn sites
+$site=beeg.com,boost=3
+$site=bellesa.com,boost=3
+$site=eporner.com,boost=3
+$site=ersties.com,boost=3
+$site=f95zone,boost=3
+$site=hqporner.com,boost=3
+$site=literotica.com,boost=3
+$site=motherless.com,boost=3
+$site=pornhub.com,boost=3
+$site=spankbang.com,boost=3
+$site=sxyprn.com,boost=3
+$site=tnaflix.com,boost=3
+$site=xhamster.com,boost=3
+$site=xnxx.com,boost=3
+$site=xvideos.com,boost=3
+$site=youporn.com,boost=3
+
+! adult sites
+$site=aznude.com,boost=2
+$site=fetlife.com,boost=2
+$site=mrskin.com,boost=2
+$site=nutaku.com,boost=2
+$site=onlyfans.com,boost=2
+
+! NSFW terms
+gonewild$boost
+hentai$boost
+naked$boost
+nsfw$boost
+nude$boost
+porn$boost
+sex$boost
+topless$boost
+xxx$boost
+
+! sites that allow nsfw content
+$site=deviantart.com,boost
+$site=itch.io,boost
+$site=reddit.com,boost
+
+! sites that ban nsfw content
+$site=dailymotion.com,discard
+$site=facebook.com,discard
+$site=pinterest.com,discard
+$site=youtube.com,discard
