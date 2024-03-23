@@ -10,13 +10,16 @@ $site=hhs.gov,boost=3
 $site=medlineplus.gov,boost=3
 $site=nih.gov,boost=3
 $site=nhs.uk,boost=3
+$site=who.int,boost=3
 
 ! reputable sites
 $site=aamc.org,boost=2
 $site=ahrq.gov,boost=2
+$site=ama-assn.org,boost=2
 $site=drugs.com,boost=2
 $site=health.harvard.edu,boost=2
 $site=healthline.com,boost=2
+$site=heart.org,boost=2
 $site=hopkinsmedicine.org,boost=2
 $site=mayoclinic.com,boost=2
 $site=pdr.net,boost=2
@@ -50,6 +53,7 @@ $site=gnc.com,downrank
 $site=target.com,downrank
 $site=walgreens.com,downrank
 $site=walmart.com,downrank
+$site=wholefoods.com,downrank
 
 ! sites dedicated to misinformation
 $site=doctoroz.com,discard
